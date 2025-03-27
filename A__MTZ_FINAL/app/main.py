@@ -11,7 +11,7 @@ def install_packages():
         subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
 
-#Закгрузка необходимых библиотек для работы проекта
+#Загрузка необходимых библиотек для работы проекта
 install_packages()
 
 
