@@ -11,7 +11,7 @@ def install_packages():
 
 
 #Загрузка необходимых библиотек
-#install_packages()
+install_packages()
 
 
 if __name__ == "__main__":
