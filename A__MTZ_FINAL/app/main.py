@@ -1,6 +1,8 @@
 import subprocess
 import sys
 from app.api.endpoints import app
+
+
 def install_packages():
     packages = [
         "python-multipart", "multipart", "numpy", "pandas", "matplotlib", "scipy", "scikit-learn", "tensorflow", "keras", "fastapi", "uvicorn", "sqlalchemy"
@@ -9,8 +11,8 @@ def install_packages():
         subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
 
-#Раскоментить при экспорте!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-#install_packages()
+#Закгрузка необходимых библиотек для работы проекта
+install_packages()
 
 
 if __name__ == "__main__":
