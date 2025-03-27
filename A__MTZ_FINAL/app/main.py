@@ -9,9 +9,8 @@ def install_packages():
     for package in packages:
         subprocess.check_call([sys.executable, "-m", "pip", "install", package])
 
-
-
-#install_packages()
+#Загрузка необходимых библиотек
+install_packages()
 
 
 if __name__ == "__main__":
